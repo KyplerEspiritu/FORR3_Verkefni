@@ -1,0 +1,11 @@
+1. Hvað er ECMAScript:
+  - ECMAScript er staðall og þekktustu útfærslur staðalsins eru Javascript, JScript og ActionScript
+
+2.  Hvað þýðir að JavasScript sé loosly typed tungumál?
+  - Breytur eru búnir til án þess að það sé sagt hvernig "týpa" breytan er.
+
+3. Er einhver munur á einföldum og tvöföldum gæsalöppum í JavaScript?
+  - Enginn munur
+
+4. Hver er munurinn á == og === í JavaScript?
+  - 
