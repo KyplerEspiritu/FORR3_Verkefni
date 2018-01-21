@@ -14,7 +14,21 @@
   - "===" athugar tegund breytuna first, en "==" berir saman gildinn.
 
 6.  Hver er munurinn á let og var? komdu með kóðadæmi sem sýnir muninn.
-  - 
+  - VAR hostar allar breyturnar í JavaScript skjalinu en LET gerir breytuna á staðnum þar sem hún er búinn til.
+    var x = 50;
+    var y = 100;
+
+    if (x === 50) {
+      var x = 500; 
+      let y = 1000;
+
+      console.log(x);  // 50
+      console.log(y);  // 100
+    } 
+
+    console.log(x); // 50
+    console.log(y); // 100
+
 
 7. Skilgreindu fall á þrjá mismunandi vegu með kóðadæmi; function declarations, function
 expressions og arrow functions.
@@ -37,7 +51,8 @@ expressions og arrow functions.
 8. Hvað gerir 'use strict'; í EcmaScript?
   - Það hjápar þér að sjá stafsetningvillur í kóðnum og auðveldar fyrir þig að leiðrétta villuna.
 
-9.
+9. Hér er dæmi um “function declaration” og kall á fallið. Afhverju virkar eftirfarandi kóði í JavaScript, útskýrðu? 
+  - Af því að JavaScript leitar af öllum "function declartion" áður en hún keyrir línu á eftir línu.
 
 10.Í hvaða röð er kóðinn keyrður í raun eftir að þýðandinn (e. interpreter) er búinn að fá hann til sín? Hvað birtir alert(), afhverju?   - Alert birtir 8 vegna þess að function-ið sem skilar frá sér 8 er á eftir funtion-ið sem skilar 3. 
 
