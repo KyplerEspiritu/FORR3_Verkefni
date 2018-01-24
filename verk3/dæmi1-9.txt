@@ -16,6 +16,7 @@
     myArray.forEach(myFunction); // Þetta skilar út 10, 20, 30 og 40
     //
     
+    ===========================================================================
     
     for-in virkar á öllum objectum.
     // Dæmi fyrir for-in
@@ -26,6 +27,7 @@
       namePerson = namePerson + x; // namePerson = "RobertDowney"
     };
     
+    ===========================================================================
     
     Í for loop ertu með þrjá parta. Fyrst þarftu að initalize-a svo að gefa condtion og að lokun final-expression.
     Þetta lítur svona út:
@@ -38,6 +40,7 @@
     };
     //
     
+    ===========================================================================
     
     For of er ekki það sama og for in. Ef við notum for of fáum við value-in inn í Array-inu en þegar við notum for in fáum við index-       inn
     // Dæmi
@@ -52,4 +55,11 @@
     }
     //
     
-3.
+3. Fylkjaaðferðir. Svarðu spurningum í lið 17 (e. quiz) í Arrays á Udacity https://classroom.udacity.com/courses/ud803 
+  - 1 af 4 = reverse()
+    2 af 4 = sort()
+    3 af 4 = shift() eða splice()
+    4 af 4 = join()
+
+4. forEach() Leystu lið 20 í Arrays á Udacity https://classroom.udacity.com/courses/ud803
+  - 
