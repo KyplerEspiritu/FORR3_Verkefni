@@ -108,3 +108,33 @@
         }
     }
     console.log(numbers);
+
+## 7. Leystu lið 8 í Objects á Udacity https://classroom.udacity.com/courses/ud803
+  - var breakfast = {
+      name:"The Lumberjack", 
+      price:"$9.95", 
+      ingredients:["eggs", "sausage", "toast", "hashbrowns", "pancakes"]
+    };
+
+## 8. Leystu lið 9 í Objects á Udacity https://classroom.udacity.com/courses/ud803
+  - var savingsAccount = {
+    balance: 1000,
+    interestRatePercent: 1,
+    deposit: function addMoney(amount) {
+        if (amount > 0) {
+            savingsAccount.balance += amount;
+        }
+    },
+    withdraw: function removeMoney(amount) {
+        var verifyBalance = savingsAccount.balance - amount;
+        if (amount > 0 && verifyBalance >= 0) {
+            savingsAccount.balance -= amount;
+        }
+    },
+    printAccountSummary: function message(){
+          return ("Welcome!\nYour balance is currently $"+savingsAccount.balance+" and your interest rate is "+savingsAccount.interestRatePercent+"%.");
+      }
+  };
+
+console.log(savingsAccount.printAccountSummary());
+
