@@ -53,9 +53,12 @@
     //
     
 ## 3. Fylkjaaðferðir. Svarðu spurningum í lið 17 (e. quiz) í Arrays á Udacity https://classroom.udacity.com/courses/ud803 
-  - 1 af 4 = reverse()\n
+  - 1 af 4 = reverse()
+  
     2 af 4 = sort()
+    
     3 af 4 = shift() eða splice()
+    
     4 af 4 = join()
 
 ## 4. forEach() Leystu lið 20 í Arrays á Udacity https://classroom.udacity.com/courses/ud803
