@@ -1,3 +1,7 @@
+// Kypler L. Espiritu
+// 2. feb 2018
+
+
 // Dæmi A
 function createShip(){
     this.name = "Spaceracer";
