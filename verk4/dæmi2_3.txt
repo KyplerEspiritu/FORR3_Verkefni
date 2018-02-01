@@ -1,1 +1,9 @@
+Kypler L. Espiritu
+01/02/18
 
+
+2. Útskýrðu hvernig erfir virka útfrá kóðasýnidæminu (Teacher) í ofangreindri grein
+  - 
+  
+3. Útskýrðu Class í ES6 útfrá functions og prototype. Komdu með keyrandi kóðasýnidæmi sem sýnir Class notkun. 
+  -
