@@ -34,4 +34,6 @@
 4. Hvað gerir getElementsByTagName()? Hverju eru skilað? komdu með kóðsýnidæmi.
   - getElementByTagName aðferðin skilar frá sér öllum element-um í skjalinu með ákveðnum tag nafni.
   
-5. Hvað er málið með auða hnúta (e. whitespace nodes) og vafra? hvernig leysum við slíkt?    
+5. Hvað er málið með auða hnúta (e. whitespace nodes) og vafra? hvernig leysum við slíkt?
+  - Dæmi um whitespace nodes er þegar þú ert með menu uppi og það kemur svona smá bil fyrir ofan þannig það er bara hvítt.
+    Það er hægt að losa við það er að commenta eða í CSS-inu er önnur leið með að nota margin.
