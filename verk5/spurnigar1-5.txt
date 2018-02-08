@@ -2,7 +2,9 @@
   - Því það skilar frá sér DOM element.
   
 2. Hvað gerir querySelectorAll()? komdu með kóðasýnidæmi ásamt skýringu.
-  - querySelectorAll() aðferðin skilar öllum þáttum í HTML skjalinu sem passar við ákveðni CSS/class-a  
+  - querySelectorAll() aðferðin skilar öllum þáttum í HTML skjalinu sem passar við ákveðni CSS/class-a.
+    Aðferðin tæknilega breytir CSS-skajalinu
+    
     Dæmi:
       <h2 class="example">A heading with class="example"</h2>
       <button onclick="myFunction()">Try it</button> 
@@ -15,6 +17,7 @@
       </script>
     
     Dæmið hér fyrir ofan er með string og takka. Þegar þú ýtir á takkan kemur rauður litur bakgrunnur fyrir strenginn. 
+    
 
 3. Hvað er NodeList? Útskýrðu útfrá eftirfarandi kóðasýnidæmi, útskýrðu línu fyrir línu.
 
