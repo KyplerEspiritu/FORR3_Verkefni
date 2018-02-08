@@ -1,0 +1,29 @@
+1. Afhverju er getElementById() fljótleglegasta aðferðin?
+  - Því það skilar frá sér DOM element.
+  
+2. Hvað gerir querySelectorAll()? komdu með kóðasýnidæmi ásamt skýringu.
+  - querySelectorAll() aðferðin skilar öllum þáttum í HTML skjalinu sem passar við ákveðni CSS/class-a  
+    Dæmi:
+      <h2 class="example">A heading with class="example"</h2>
+      <button onclick="myFunction()">Try it</button> 
+
+      <script>
+      function myFunction() {
+          var x = document.querySelectorAll(".example");
+          x[0].style.backgroundColor = "red";
+      }
+      </script>
+    
+    Dæmið hér fyrir ofan er með string og takka. Þegar þú ýtir á takkan kemur rauður litur bakgrunnur fyrir strenginn. 
+
+3. Hvað er NodeList? Útskýrðu útfrá eftirfarandi kóðasýnidæmi, útskýrðu línu fyrir línu.
+
+    var elements = document.getElementsByTagName('li');
+    if (elements.length > 0) {
+       var el = elements[2];
+       el.className = 'cool';
+    }
+    
+4. Hvað gerir getElementsByTagName()? Hverju eru skilað? komdu með kóðsýnidæmi.
+
+5. Hvað er málið með auða hnúta (e. whitespace nodes) og vafra? hvernig leysum við slíkt?    
