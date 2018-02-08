@@ -26,6 +26,10 @@
        var el = elements[2];
        el.className = 'cool';
     }
+    Nodelist er safn af DOM element-um/nodes.
+    
+    Það sem kóðinn gerir að það nær í öll li í HTML-inu og kíkjir hvort þau eru fleiri en 0, og ef þau eru fleiri en 0 þá verður breytt
+    þriðja li-ið í "cool".
     
 4. Hvað gerir getElementsByTagName()? Hverju eru skilað? komdu með kóðsýnidæmi.
   - getElementByTagName aðferðin skilar frá sér öllum element-um í skjalinu með ákveðnum tag nafni.
