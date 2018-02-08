@@ -28,5 +28,6 @@
     }
     
 4. Hvað gerir getElementsByTagName()? Hverju eru skilað? komdu með kóðsýnidæmi.
-
+  - getElementByTagName aðferðin skilar frá sér öllum element-um í skjalinu með ákveðnum tag nafni.
+  
 5. Hvað er málið með auða hnúta (e. whitespace nodes) og vafra? hvernig leysum við slíkt?    
