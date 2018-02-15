@@ -6,5 +6,5 @@
    
    Dæmi:
    <a href="https://www.facebook.com/"></a>
-   Þegar þú slærð inn kóðan uppi skilar það: "https://www.facebook.com/"
+   Þegar þú slærð inn JavaScript kóðan uppi skilar það: "https://www.facebook.com/"
    
