@@ -53,6 +53,5 @@ var div_answer_2_text = document.createTextNode("Svarmöguleiki 2");
 div_answer_2.appendChild(div_answer_2_text);
 div_answers.appendChild(div_answer_2)
 
+document.getElementsByTagName("body")[0].appendChild(div_all);
 
-var currentId = document.getElementById("message");
-document.body.insertBefore(div_all, currentId);
