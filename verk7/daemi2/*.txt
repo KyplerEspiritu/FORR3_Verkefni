@@ -1,2 +1,2 @@
 2. Hvað er EventLoop? Úrskýrðu með eigin orðum
-  - 
+  -
