@@ -1,1 +1,14 @@
-
+5. Hvað gera eftirfarandi aðferðir?
+  a. stopPropagation()
+    - Segjum þú ert með eftirfarandi kóða:
+        <div>
+            DIV
+            <span>
+                Span
+            </span>
+        <div>
+        
+      Þegar þú ýtir á "span" þá ertu líka ýta á "div". Með stopPropagation getur þú ýt á "span" án þess að ýta á "div".
+  
+  b. preventDefault()
+    - 
