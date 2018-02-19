@@ -1,1 +1,2 @@
-
+1. Hvað er callback? Útskýrðu með eigin orðum, komdu með kóðadæmi.
+  -
