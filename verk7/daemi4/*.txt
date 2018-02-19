@@ -1,0 +1,4 @@
+4. Event flow, Hvað þýðir false í Event Listener?
+   elUsername.addEventListener('blur' , function() {
+      checkUsername(5);
+   }, false)
