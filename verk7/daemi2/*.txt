@@ -1,2 +1,3 @@
 2. Hvað er EventLoop? Úrskýrðu með eigin orðum
-  -
+  - Það kíkjir hvort call stack-ið er autt og ef það er þá kíkjir það svo inn í event queue með einhver föll OG ef það er þá tekur       
+    EventLoop-an fallið sem er fyrst í röðinni (eða elsta fallið) og
