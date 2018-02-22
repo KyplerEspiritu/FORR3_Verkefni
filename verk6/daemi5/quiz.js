@@ -1,12 +1,9 @@
-// ÞETTA ER BARA FYRIR ÖPP MEÐ TVEIMUR SPURNINGUM
-
-
 "use strict";
 
 function Question(spurning, svor, rett_svar) {
 	let text = "";
 	for (var i=0; i < svor.length; i++){
-		text += "<button onclick='checkAndChangeQuestion()'>" + svor[i] + "</button><br>";
+		text += "<span onclick='checkAndChangeQuestion()' id='answer'>" + svor[i] + "</span><br>";
 	}
 	this.spurning = spurning;
 	this.svor = text;
@@ -15,7 +12,7 @@ function Question(spurning, svor, rett_svar) {
 
 function checkAndChangeQuestion(){
 	var questionContent = document.getElementById("spurning");
-	var elem = document.getElementsByTagName("BUTTON");
+	var elem = document.getElementsByTagName("SPAN");
 	for (let i = 0; i < elem.length; i++){ 
 		if (elem[i].textContent === spurning_1.rett || elem[i].textContent === spurning_2.rett){
         	elem[i].setAttribute("class", "greenColor");
